@@ -3,27 +3,52 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Título de la página</title>
+      <title>Imagenes en HTML5</title>
    </head>
    <body>
       <!-- Contenido del cuerpo del documento HTML -->
       <header>
          <!-- Cabecera del documento -->
+          <h1>Imágenes en HTML5</h1>
       </header>
       <nav>
          <!-- Barra de navegación -->
+          <ul>
+            <li><a href="#Concepto">Concepto</a></li>
+            <li><a href="#Src">Atributo src</a></li>
+            <li><a href="#Alt">Atributo alt</a></li>
+          </ul>
       </nav>
       <section>
          <!-- Sección de contenido principal -->
+          <h2 id="Concepto">Concepto</h2>
+          <p>El elemento "img" es un elemento vacío de HTML que sirve para incluir una imagen en el documento.</p>
+          <p>Posee dos atributos, pero no hay etiqueta de cierre ni contenido encerrado. Esto es porque un elemento de imagen no encierra contenido al cual afectar. Su propósito es desplegar una imagen en la página HTML, en el lugar en que aparece.</p>
+          <img src="../image1.jpg" alt="Primera imagen">
+          
       </section>
       <article>
          <!-- Artículo o contenido independiente -->
+         <h2 id="Src">Atributo src</h2>
+         <p>El atributo src es obligatorio para la etiqueta "img", ya que sirve para especificar la URL o ruta del recurso externo que el navegador debe cargar y mostrar. Puede contener una ruta relativa al proyecto o una URL absoluta.</p>
+         <img src="./image2.jpg" alt="Segunda imagen">
+         <h2 id="Alt">Atributo alt</h2>
+         <p>Se incluye un atributo alt (alternative) el cual contiene un texto que debería describir la imagen, y que podría ser accedido por usuarios que no pueden ver la imagen, quizás porque:</p>
+         <ol>
+           <li>Son ciegos o tienen deficiencias visuales. Los usuarios con impedimentos visuales usualmente utilizan herramientas llamadas Lectores de pantalla (Screen Readers), los cuales les leen el texto contenido en el atributo alt.</li>
+           <li>Se produjo algún error en el código que impide que la imagen sea cargada. Como ejemplo, modifica deliberadamente la ubicación dentro del atributo src para que este sea incorrecto.</li>
+         </ol>
+         <img src="./Assets/image3.jpg" alt="Tercera imagen">
       </article>
       <aside>
          <!-- Contenido relacionado o complementario al contenido principal -->
+         <h3>¿Qué son los elementos vacíos?</h3>
+         <p>Los elementos vacíos (o void elements) en HTML son etiquetas que no requieren una etiqueta de cierre ni contienen texto u otros elementos en su interior. Se utilizan para insertar contenido estructurado o funcional —como imágenes, saltos de línea o metadatos— de forma autónoma con una única etiqueta, a menudo cerrada con /> o solo >, por ejemplo: "br", "img", "input".</p>
+         <img src="./Assets/extras/image4.jpg" alt="Cuarta imagen">
       </aside>
       <footer>
          <!-- Pie de página -->
+          <p>Universidad Abierta Interamericana - 2026</p>
       </footer>
    </body>
 </html>
