@@ -1,0 +1,73 @@
+#contenedor {
+    width: 100%;
+    
+}
+
+#titulo {
+    display: inline;
+    width: 40%;
+}
+
+#banner {
+    display: inline;
+    margin-right: 0;
+    width: 40%;
+    margin-left: 20%;
+}
+
+#cabecera {
+    background-color: rgb(215, 245, 250);
+}
+
+#menu {
+    float: left;
+    width: 15%;
+}
+
+#contenido {
+    float: left;
+    width: 85%;
+}
+
+#pie {
+    clear: both;
+    background-color: rgb(144, 190, 243);
+    padding: 10px;
+}
+
+.titular {
+    text-decoration: underline;
+}
+
+.texto-celeste {
+    color:rgb(144, 190, 243)
+}
+
+.resaltado-verde {
+    background-color: rgb(57, 255, 39);
+}
+
+.texto-naranja {
+    color: rgb(211, 139, 6);
+}
+
+.titulo-lista {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.resaltado-amarillo {
+    background-color: yellow;
+}
+
+.texto-rojo {
+    color: red;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+a:hover {
+    color:rgb(22, 146, 11)
+}
