@@ -1,0 +1,98 @@
+ody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+main {
+    background-color: white;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin: 3px 0 0 0;
+    min-height: 15px;
+}
+
+.contenedor-boton {
+    text-align: center;
+}
+
+#btn-enviar {
+    background-color: #333;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+#btn-enviar:hover {
+    background-color: #555;
+}
+
+@media (min-width: 600px) {
+    #formulario {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .contenedor-boton {
+        grid-column: span 2; 
+    }
+
+    #btn-enviar {
+        width: auto;
+    }
+}

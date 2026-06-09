@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción Diario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>DIARIO ONLINE</h1>
+    </header>
+
+    <main>
+        <h2 id="titulo-hola">HOLA</h2>
+        
+        <form id="formulario">
+            
+            <div class="campo">
+                <label>Nombre completo:</label>
+                <input type="text" id="nombre">
+                <p class="error" id="error-nombre"></p>
+            </div>
+
+            <div class="campo">
+                <label>Email:</label>
+                <input type="email" id="email">
+                <p class="error" id="error-email"></p>
+            </div>
+
+            <div class="campo">
+                <label>Contraseña:</label>
+                <input type="password" id="password">
+                <p class="error" id="error-password"></p>
+            </div>
+
+            <div class="campo">
+                <label>Repetir contraseña:</label>
+                <input type="password" id="password-check">
+                <p class="error" id="error-password-check"></p>
+            </div>
+
+            <div class="campo">
+                <label>Edad:</label>
+                <input type="number" id="edad">
+                <p class="error" id="error-edad"></p>
+            </div>
+
+            <div class="campo">
+                <label>Teléfono:</label>
+                <input type="text" id="telefono">
+                <p class="error" id="error-telefono"></p>
+            </div>
+
+            <div class="campo">
+                <label>Dirección:</label>
+                <input type="text" id="direccion">
+                <p class="error" id="error-direccion"></p>
+            </div>
+
+            <div class="campo">
+                <label>Ciudad:</label>
+                <input type="text" id="ciudad">
+                <p class="error" id="error-ciudad"></p>
+            </div>
+
+            <div class="campo">
+                <label>Código Postal:</label>
+                <input type="text" id="cp">
+                <p class="error" id="error-cp"></p>
+            </div>
+
+            <div class="campo">
+                <label>DNI:</label>
+                <input type="text" id="dni">
+                <p class="error" id="error-dni"></p>
+            </div>
+
+            <div class="contenedor-boton">
+                <button type="submit" id="btn-enviar">Enviar</button>
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Diario Online - Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
